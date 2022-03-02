@@ -7,7 +7,7 @@
 
 <p align="center">
   <a>
-    <img src="https://img.shields.io/badge/Release-1.3.6_ETHASH-orgin.svg" alt="travis">
+    <img src="https://img.shields.io/badge/Release-V1.0-orgin.svg" alt="travis">
   </a>
   <a>
     <img src="https://img.shields.io/badge/Last_Update-2022_03_01-orgin.svg" alt="travis">
@@ -21,11 +21,10 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/GoMinerProxy/GoMinerProxy/blob/main/README_zh-cn.md">简体介绍</a> •
   <a href="https://gominerproxy.github.io/zh_hk/">文档(繁体中文)</a> •
   <a href="https://gominerproxy.github.io/zh_cn/">文档(简体中文)</a> •
-  <a href="https://t.me/+afVqEXnxtQAyNWNh">Telegram 讨论群组</a> •
-  <a href="https://t.me/go_minerproxy">Telegram 通知频道</a>
+  <a href="https://t.me/ethereumproxy">Telegram 讨论群组</a> •
+  <a href="https://t.me/ethereumproxy">Telegram 通知频道</a>
 </p>
 
 ![Screenshot](https://raw.githubusercontent.com/GoMinerProxy/GoMinerProxy/main/images/web_1.png)
