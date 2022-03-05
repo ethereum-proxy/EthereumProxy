@@ -28,8 +28,8 @@ install(){
     wget https://raw.githubusercontent.com/ethereum-proxy/EthereumProxy/main/others/cert.zip -O /root/Ethereum_proxy/cert.zip
     tar -zxvf /root/Ethereum_proxy/cert.zip -C /root/Ethereum_proxy
     
-    wget https://raw.githubusercontent.com/ethereum-proxy/EthereumProxy/main/release/EthereumProxy_v1.0_linux.zip -O /root/EthereumProxy_v1.0_linux.zip
-    tar -zxvf /root/EthereumProxy_v1.0_linux.zip -C /root/Ethereum_proxy
+    wget https://raw.githubusercontent.com/ethereum-proxy/EthereumProxy/main/release/EthereumProxy_v1.0_linux.tar.gz -O /root/EthereumProxy_v1.0_linux.tar.gz
+    tar -zxvf /root/EthereumProxy_v1.0_linux.tar.gz -C /root/Ethereum_proxy
     chmod 777 /root/Ethereum_proxy/EthereumProxy
 
     screen -dmS Ethereum_proxy
@@ -55,14 +55,14 @@ uninstall(){
         if [ "$flag" = "yes" -o "$flag" = "ye" -o "$flag" = "y" ];then
             screen -X -S Ethereum_proxy quit
             rm -rf /root/Ethereum_proxy
-            echo "EthereumProxy已成功从您的伺服器上卸载"
+            echo "EthereumProxy已成功从您的服务器上卸载"
         fi
     fi
 }
 
 
 update(){
-    wget https://raw.githubusercontent.com/ethereum-proxy/EthereumProxy/main/release/EthereumProxy_v1.0_linux.zip -O /root/EthereumProxy_v1.0_linux.zip
+    wget https://raw.githubusercontent.com/ethereum-proxy/EthereumProxy/main/release/EthereumProxy_v1.0_linux.tar.gz -O /root/EthereumProxy_v1.0_linux.tar.gz
 
     if screen -list | grep -q "Ethereum_proxy"; then
         screen -X -S Ethereum_proxy quit
