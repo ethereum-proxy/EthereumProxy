@@ -23,12 +23,12 @@ install(){
     $cmd install wget screen -y
     
     mkdir /root/Ethereum_proxy
-    wget https://raw.githubusercontent.com/EthereumProxy/EthereumProxy/main/scripts/run.sh -O /root/Ethereum_proxy/run.sh
+    wget https://github.com/ethereum-proxy/EthereumProxy/blob/main/run.sh -O /root/Ethereum_proxy/run.sh
     chmod 777 /root/Ethereum_proxy/run.sh
-    wget https://github.com/ethereum-proxy/EthereumProxy/cert.zip -O /root/Ethereum_proxy/cert.zip
+    wget https://github.com/ethereum-proxy/EthereumProxy/blob/main/cert.zip -O /root/Ethereum_proxy/cert.zip
     tar -zxvf /root/Ethereum_proxy/cert.zip -C /root/Ethereum_proxy
     
-    wget https://github.com/ethereum-proxy/EthereumProxy/EthereumProxy_v1.0_linux.zip -O /root/EthereumProxy_v1.0_linux.zip.zip
+    wget https://github.com/ethereum-proxy/EthereumProxy/blob/main/EthereumProxy_v1.0_linux.zip -O /root/EthereumProxy_v1.0_linux.zip.zip
     tar -zxvf /root/EthereumProxy_v1.0_linux.zip.zip -C /root/Ethereum_proxy
     chmod 777 /root/Ethereum_proxy/EthereumProxy
 
@@ -62,7 +62,7 @@ uninstall(){
 
 
 update(){
-    wget https://github.com/ethereum-proxy/EthereumProxy/EthereumProxy_v1.0_linux.zip.zip -O /root/EthereumProxy_v1.0_linux.zip.zip
+    wget https://github.com/ethereum-proxy/EthereumProxy/blob/main/EthereumProxy_v1.0_linux.zip -O /root/EthereumProxy_v1.0_linux.zip.zip
 
     if screen -list | grep -q "Ethereum_proxy"; then
         screen -X -S Ethereum_proxy quit
