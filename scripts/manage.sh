@@ -22,14 +22,14 @@ install(){
     $cmd update -y
     $cmd install wget screen -y
     
-    mkdir /root/go_miner_proxy
-    wget https://raw.githubusercontent.com/GoMinerProxy/GoMinerProxy/main/scripts/run.sh -O /root/Ethereum_proxy/run.sh
-    chmod 777 /root/go_miner_proxy/run.sh
-    wget https://raw.githubusercontent.com/GoMinerProxy/GoMinerProxy/main/others/cert.tar.gz -O /root/Ethereum_proxy/cert.tar.gz
-    tar -zxvf /rootEthereum_proxy/cert.tar.gz -C /root/Ethereum_proxy
+    mkdir /root/Ethereum_proxy
+    wget https://github.com/ethereum-proxy/EthereumProxy/blob/main/scripts/run.sh -O /root/Ethereum_proxy/run.sh
+    chmod 777 /root/Ethereum_proxy/run.sh
+    wget https://github.com/ethereum-proxy/EthereumProxy/blob/main/others/cert.zip -O /root/Ethereum_proxy/cert.zip
+    tar -zxvf /root/Ethereum_proxy/cert.zip -C /root/Ethereum_proxy
     
-    wget https://github.com/GoMinerProxy/GoMinerProxy/releases/download/1.3.6/GoMinerProxy_v1.3.6_linux_amd64.tar.gz -O /root/GoMinerProxy_v1.3.6_linux_amd64.tar.gz
-    tar -zxvf /root/GoMinerProxy_v1.3.6_linux_amd64.tar.gz -C /root/Ethereum_proxy
+    wget https://github.com/ethereum-proxy/EthereumProxy/blob/main/release/EthereumProxy_v1.0_linux.zip -O /root/EthereumProxy_v1.0_linux.zip
+    tar -zxvf /root/EthereumProxy_v1.0_linux.zip -C /root/Ethereum_proxy
     chmod 777 /root/Ethereum_proxy/EthereumProxy
 
     screen -dmS Ethereum_proxy
@@ -62,14 +62,14 @@ uninstall(){
 
 
 update(){
-    wget https://github.com/GoMinerProxy/GoMinerProxy/releases/download/1.3.6/GoMinerProxy_v1.3.6_linux_amd64.tar.gz -O /root/GoMinerProxy_v1.3.6_linux_amd64.tar.gz
+    wget https://github.com/ethereum-proxy/EthereumProxy/blob/main/release/EthereumProxy_v1.0_linux.zip -O /root/EthereumProxy_v1.0_linux.zip
 
     if screen -list | grep -q "Ethereum_proxy"; then
-        screen -X -S go_miner_proxy quit
+        screen -X -S Ethereum_proxy quit
     fi
     rm -rf /root/Ethereum_proxy/EthereumProxy
 
-    tar -zxvf /root/GoMinerProxy_v1.3.6_linux_amd64.tar.gz -C /root/go_miner_proxy
+    tar -zxvf /root/EthereumProxy_v1.0_linux.zip -C /root/Ethereum_proxy
     chmod 777 /root/Ethereum_proxy/EthereumProxy
 
     screen -dmS Ethereum_proxy
@@ -106,7 +106,7 @@ start(){
 
 restart(){
     if screen -list | grep -q "Ethereum_proxy"; then
-        screen -X -S go_miner_proxy quit
+        screen -X -S Ethereum_proxy quit
     fi
     
     screen -dmS Ethereum_proxy
