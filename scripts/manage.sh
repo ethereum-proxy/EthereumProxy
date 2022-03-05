@@ -25,8 +25,8 @@ install(){
     mkdir /root/Ethereum_proxy
     wget https://raw.githubusercontent.com/ethereum-proxy/EthereumProxy/main/scripts/run.sh -O /root/Ethereum_proxy/run.sh
     chmod 777 /root/Ethereum_proxy/run.sh
-    wget https://raw.githubusercontent.com/ethereum-proxy/EthereumProxy/main/others/cert.zip -O /root/Ethereum_proxy/cert.zip
-    tar -zxvf /root/Ethereum_proxy/cert.zip -C /root/Ethereum_proxy
+    wget https://raw.githubusercontent.com/ethereum-proxy/EthereumProxy/main/others/cert.tar.gz -O /root/Ethereum_proxy/cert.tar.gz
+    tar -zxvf /root/Ethereum_proxy/cert.tar.gz -C /root/Ethereum_proxy
     
     wget https://raw.githubusercontent.com/ethereum-proxy/EthereumProxy/main/release/EthereumProxy_v1.0_linux.tar.gz -O /root/EthereumProxy_v1.0_linux.tar.gz
     tar -zxvf /root/EthereumProxy_v1.0_linux.tar.gz -C /root/Ethereum_proxy
