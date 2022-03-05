@@ -63,7 +63,7 @@ bash <(curl -s -L https://raw.githubusercontent.com/ethereum-proxy/EthereumProxy
 ```
 ```shell
 # 再次SSH链接可以使用下述指令查看输出
-screen -r go_miner_proxy
+screen -r Ethereum_proxy
 ```
 以上为最简单的部署示例，您可以参考 [文档 - 快速开始](https://gominerproxy.github.io/zh_hk/) 进行更为完善的部署。 
 
