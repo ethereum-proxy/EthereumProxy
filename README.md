@@ -1,9 +1,9 @@
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/GoMinerProxy/GoMinerProxy/main/images/logo.png" width="350"/>
+  <img src="https://github.com/ethereum-proxy/EthereumProxy/blob/main/logo.png" width="350"/>
 </h1>
 
-<h4 align="center">基于GoLang的高性能多线程ETH/ETC矿池转发中继代理工具.</h4>
+<h4 align="center">基于GoLang的高性能多线程ETH/ETC矿池转发中继代理工具</h4>
 
 <p align="center">
   <a>
@@ -74,4 +74,4 @@ screen -r go_miner_proxy
 * [Vue.JS](https://vuejs.org/) + [vue-element](https://panjiachen.github.io/vue-element-admin-site/)
 
 ## :scroll: 开发抽水
-* 恆定0.3%
+* 恒定 0.3%
