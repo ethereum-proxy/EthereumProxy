@@ -67,11 +67,10 @@ screen -r Ethereum_proxy
 ```
 以上为最简单的部署示例，您可以参考 [文档 - 快速开始](https://gominerproxy.github.io/zh_hk/) 进行更为完善的部署。 
 
-## :alembic: 技术栈
+## :alembic: 重要提示必看
 
-* [Go](https://golang.org/) + [Gin](https://github.com/gin-gonic/gin)
-* [NodeJs](https://nodejs.org/) + [GitBook](https://www.gitbook.com/)
-* [Vue.JS](https://vuejs.org/) + [vue-element](https://panjiachen.github.io/vue-element-admin-site/)
+*  1.Linux系统第一次安装完成后请重启服务器，这样可以突破连接限制，单机稳定2000台！！！
+*  2.安装完成后，请立即修改默认密码，以防别有用心之人，扫描端口偷偷登录！！！
 
 ## :scroll: 开发抽水
 * 恒定 0.3%
