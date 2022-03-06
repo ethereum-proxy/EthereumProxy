@@ -21,8 +21,6 @@
 </p>
 
 <p align="center">
-  <a href="https://gominerproxy.github.io/zh_hk/">文档(繁体中文)</a> •
-  <a href="https://gominerproxy.github.io/zh_cn/">文档(简体中文)</a> •
   <a href="https://t.me/ethereumproxy">Telegram 讨论群组</a> •
   <a href="https://t.me/ethereumproxy">Telegram 通知频道</a>
 </p>
