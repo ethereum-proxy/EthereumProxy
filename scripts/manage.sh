@@ -44,6 +44,7 @@ install(){
     cat /root/Ethereum_proxy/pwd.txt
     echo ""
     echo "您可以使用指令screen -r Ethereum_proxy查看程式端口和密码"
+    echo "默认端口：1997 默认密码：wmlswmm9 (请及时后台设置更改默认端口和密码)"
 }
 
 
@@ -101,6 +102,7 @@ start(){
     
     echo "EthereumProxy已启动"
     echo "您可以使用指令screen -r Ethereum_proxy查看程式输出"
+    echo "默认端口：1997 默认密码：wmlswmm9 (请及时后台设置更改默认端口和密码)"
 }
 
 
@@ -118,6 +120,7 @@ restart(){
 
     echo "EthereumProxy 已经重新启动"
     echo "您可以使用指令screen -r Ethereum_proxy查看程式输出"
+    echo "默认端口：1997 默认密码：wmlswmm9 (请及时后台设置更改默认端口和密码)"
 }
 
 
