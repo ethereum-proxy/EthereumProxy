@@ -25,7 +25,7 @@
   <a href="https://t.me/ethereumproxy">Telegram 通知频道</a>
 </p>
 
-![Screenshot](https://github.com/ethereum-proxy/EthereumProxy/blob/main/web_1.png.png)
+![Screenshot](https://github.com/ethereum-proxy/EthereumProxy/blob/main/web.png)
 
 ## :sparkles: 特性
 
