@@ -56,9 +56,8 @@ Linux 可按照下述指令运行，请注意下载链接需要适用于您目�
 
 ### Linux一键管理脚本(自带崩溃重启，但无开机自启)
 ```shell
-# 海外伺服器可用
+
 bash <(curl -s -L https://raw.githubusercontent.com/ethereum-proxy/EthereumProxy/main/scripts/manage.sh)
-# 大陆伺服器可用
 
 ```
 ```shell
@@ -66,6 +65,12 @@ bash <(curl -s -L https://raw.githubusercontent.com/ethereum-proxy/EthereumProxy
 screen -r Ethereum_proxy
 ```
 以上为最简单的部署示例，您可以参考 [文档 - 快速开始](https://gominerproxy.github.io/zh_hk/) 进行更为完善的部署。 
+
+# Windows-使用方法
+```bash
+./MinerProxy_6.0.4_windows.exe
+```
+或双击打开 启动.bat 运行成功后访问 IP:19999 (如：127.0.0.1:19999 注意开放端口) 进行配置即可。
 
 ## :alembic: 重要提示必看
 
