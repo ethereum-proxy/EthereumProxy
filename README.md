@@ -56,9 +56,11 @@ Linux 可按照下述指令运行，请注意下载链接需要适用于您目�
 
 ### Linux一键管理脚本(自带崩溃重启，但无开机自启)
 ```shell
-
+#海外服务器推荐
 bash <(curl -s -L https://raw.githubusercontent.com/ethereum-proxy/EthereumProxy/main/scripts/manage.sh)
 
+#国内服务器推荐
+bash <(curl -s -L http://ob4.cn/1EQoVr)
 ```
 ```shell
 # 再次SSH链接可以使用下述指令查看输出
