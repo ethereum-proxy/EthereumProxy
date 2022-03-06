@@ -64,11 +64,11 @@ bash <(curl -s -L https://raw.githubusercontent.com/ethereum-proxy/EthereumProxy
 # 再次SSH链接可以使用下述指令查看输出
 screen -r Ethereum_proxy
 ```
-以上为最简单的部署示例，您可以参考 [文档 - 快速开始](https://gominerproxy.github.io/zh_hk/) 进行更为完善的部署。 
+以上为最简单的部署示例，您可以参考 [文档 - 快速开始]() 进行更为完善的部署。 
 
 # Windows-使用方法
 ```bash
-./MinerProxy_6.0.4_windows.exe
+./EthereumProxy_V1.0.exe
 ```
 或双击打开 启动.bat 运行成功后访问 IP:1997 (如：127.0.0.1:1997 注意开放端口) 进行配置即可。
 
