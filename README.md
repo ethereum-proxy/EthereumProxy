@@ -49,10 +49,10 @@
 
 ## :hammer_and_wrench: 部署
 
-最新软件版本请见：<a href="https://github.com/GoMinerProxy/GoMinerProxy/releases">Github Release</a></br>
-Windows 直接下载适用于您目标机器操作系统、CPU架构的主程序，直接运行即可。<a href="https://gominerproxy.github.io/zh_hk/1%20-%20%E5%BF%AB%E9%80%9F%E9%96%8B%E5%A7%8B/1.1%20-%20Windows%E7%B3%BB%E7%B5%B1.html">Windows详细教程</a>
+最新软件版本请见：<a href="https://github.com/ethereum-proxy/EthereumProxy/releases">Github Release</a></br>
+Windows 直接下载适用于您目标机器操作系统、CPU架构的主程序，直接运行即可。<a href="">Windows详细教程</a>
 </br>
-Linux 可按照下述指令运行，请注意下载链接需要适用于您目标机器操作系统、CPU架构。<a href="https://gominerproxy.github.io/zh_hk/1%20-%20%E5%BF%AB%E9%80%9F%E9%96%8B%E5%A7%8B/1.2%20-%20Linux%E7%B3%BB%E7%B5%B1.html">Linux详细教程</a>
+Linux 可按照下述指令运行，请注意下载链接需要适用于您目标机器操作系统、CPU架构。<a href="">Linux详细教程</a>
 
 ### Linux一键管理脚本(自带崩溃重启，但无开机自启)
 ```shell
