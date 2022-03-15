@@ -1,4 +1,4 @@
-#### EthereumProxy V1.0 版本已发布
+#### 芯动矿机的无效提交过多和矿机名变成defaults的问题已经找到并解决了，预计2-3天可以发布新版本
 ----
 #### 当前版本：{BUILD_VERSION}({BUILD_DATE})
 #### 最新版本：[V1.0 (2022-03-01)](https://github.com/ethereum-proxy/EthereumProxy/releases/tag/1.0)
