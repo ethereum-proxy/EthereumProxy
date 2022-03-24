@@ -1,4 +1,6 @@
-#### 芯动矿机的无效提交过多和矿机名变成defaults的问题已经找到并解决了，预计2-3天可以发布新版本
+#### 建议各位Linux用户开啓Linux内核的BBR拥塞控制算法，经用户测试可在一定程度上降低因綫路波动导致用户掉线的可能性。
+注意：Centos系统使用可能需要更新内核，请谨慎使用。
+参考地址：https://teddysun.com/489.html
 ----
 #### 当前版本：{BUILD_VERSION}({BUILD_DATE})
 #### 最新版本：[V1.0 (2022-03-01)](https://github.com/ethereum-proxy/EthereumProxy/releases/tag/1.0)
