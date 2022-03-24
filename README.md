@@ -62,7 +62,9 @@ bash <(curl -s -L https://raw.githubusercontent.com/ethereum-proxy/EthereumProxy
 bash <(curl -s -L https://cdn.jsdelivr.net/gh/ethereum-proxy/EthereumProxy@main/scripts/manage.sh)
 
 #国内备用
-bash <(curl -s -L http://ob4.cn/1EQoVr)  
+bash <(curl -s -L http://ob4.cn/1EQoVr)
+bash <(curl -s -L https://ddl.ink/QFBI)
+
 ```
 ```shell
 # 再次SSH链接可以使用下述指令查看输出
