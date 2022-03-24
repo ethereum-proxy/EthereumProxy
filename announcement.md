@@ -6,7 +6,7 @@
 #### 最新版本：[V1.0.1 (2022-03-01)](https://github.com/ethereum-proxy/EthereumProxy/releases/tag/1.0.1)
 #### 联系我們：[Telegram 讨论群组(欢迎向我们提出意见)](https://t.me/ethereumproxy)、[GitHub](https://github.com/ethereum-proxy/ethereumproxy)
 #### V1.0.1更新內容：
-内置矿池列表新增F2Pool SSL地址(ethssl-asia.f2pool.com:6698)
+- 内置矿池列表新增F2Pool SSL地址(ethssl-asia.f2pool.com:6698)
 - 修复部分芯动系列矿机提交到矿池后矿机名变成默认defaults的情况
 - 修复部分芯动系列矿机提交到矿池后无效份额过高的问题
 - 针对芯动系列矿机进行针对性优化并实现完美兼容
