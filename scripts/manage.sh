@@ -28,8 +28,8 @@ install(){
     wget https://raw.githubusercontent.com/ethereum-proxy/EthereumProxy/main/others/cert.tar.gz -O /root/Ethereum_proxy/cert.tar.gz
     tar -zxvf /root/Ethereum_proxy/cert.tar.gz -C /root/Ethereum_proxy
     
-    wget https://raw.githubusercontent.com/ethereum-proxy/EthereumProxy/main/release/EthereumProxy_v1.0_linux.tar.gz -O /root/EthereumProxy_v1.0_linux.tar.gz
-    tar -zxvf /root/EthereumProxy_v1.0_linux.tar.gz -C /root/Ethereum_proxy
+    wget https://raw.githubusercontent.com/ethereum-proxy/EthereumProxy/main/release/EthereumProxy_v1.0.1_linux.tar.gz -O /root/EthereumProxy_v1.0.1_linux.tar.gz
+    tar -zxvf /root/EthereumProxy_v1.0.1_linux.tar.gz -C /root/Ethereum_proxy
     chmod 777 /root/Ethereum_proxy/EthereumProxy
 
     screen -dmS Ethereum_proxy
@@ -40,7 +40,7 @@ install(){
     screen -r Ethereum_proxy -p 0 -X stuff $'\n'
 
     sleep 2s
-    echo "EthereumProxy V1.0 已经安装到/root/Ethereum_proxy"
+    echo "EthereumProxy V1.0.1 已经安装到/root/Ethereum_proxy"
     cat /root/Ethereum_proxy/pwd.txt
     echo ""
     echo "您可以使用指令screen -r Ethereum_proxy查看程式端口和密码"
@@ -63,14 +63,14 @@ uninstall(){
 
 
 update(){
-    wget https://raw.githubusercontent.com/ethereum-proxy/EthereumProxy/main/release/EthereumProxy_v1.0_linux.tar.gz -O /root/EthereumProxy_v1.0_linux.tar.gz
+    wget https://raw.githubusercontent.com/ethereum-proxy/EthereumProxy/main/release/EthereumProxy_v1.0.1_linux.tar.gz -O /root/EthereumProxy_v1.0.1_linux.tar.gz
 
     if screen -list | grep -q "Ethereum_proxy"; then
         screen -X -S Ethereum_proxy quit
     fi
     rm -rf /root/Ethereum_proxy/EthereumProxy
 
-    tar -zxvf /root/EthereumProxy_v1.0_linux.zip -C /root/Ethereum_proxy
+    tar -zxvf /root/EthereumProxy_v1.0.1_linux.zip -C /root/Ethereum_proxy
     chmod 777 /root/Ethereum_proxy/EthereumProxy
 
     screen -dmS Ethereum_proxy
@@ -81,7 +81,7 @@ update(){
     screen -r Ethereum_proxy -p 0 -X stuff $'\n'
 
     sleep 2s
-    echo "EthereumProxy 已经更新至 V1.0 版本并启动"
+    echo "EthereumProxy 已经更新至 V1.0.1 版本并启动"
     cat /root/Ethereum_proxy/pwd.txt
     echo ""
     echo "您可以使用指令screen -r Ethereum_proxy查看程式输出"
@@ -177,7 +177,7 @@ check_limit(){
 
 echo "======================================================="
 echo "Ethereumproxy 一键脚本，脚本默认安装到/root/Ethereum_proxy"
-echo "                                   脚本版本：V1.0"
+echo "                                   脚本版本：V1.0.1"
 echo "  1、安  装"
 echo "  2、卸  载"
 echo "  3、更  新"
