@@ -62,7 +62,7 @@ bash <(curl -s -L https://raw.githubusercontent.com/ethereum-proxy/EthereumProxy
 bash <(curl -s -L https://cdn.jsdelivr.net/gh/ethereum-proxy/EthereumProxy@main/scripts/manage.sh)
 
 #国内备用
-bash <(curl -s -L https://ddl.ink/QFBI)
+bash <(curl -s -L https://ddl.ink/ZuBZ)
 
 ```
 ```shell
