@@ -7,10 +7,10 @@
 
 <p align="center">
   <a>
-    <img src="https://img.shields.io/badge/Release-V1.0-orgin.svg" alt="travis">
+    <img src="https://img.shields.io/badge/Release-V1.0.1-orgin.svg" alt="travis">
   </a>
   <a>
-    <img src="https://img.shields.io/badge/Last_Update-2022_03_01-orgin.svg" alt="travis">
+    <img src="https://img.shields.io/badge/Last_Update-2022_03_25-orgin.svg" alt="travis">
   </a>
   <a>
     <img src="https://img.shields.io/badge/Language-GoLang-green.svg" alt="travis">
