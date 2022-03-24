@@ -73,7 +73,7 @@ screen -r Ethereum_proxy
 
 # Windows-使用方法
 ```bash
-./EthereumProxy_V1.0.exe
+./EthereumProxy_V1.0.1.exe
 ```
 或双击打开 启动.bat 运行成功后访问 IP:1997 (如：127.0.0.1:1997 注意开放端口) 进行配置即可。
 
