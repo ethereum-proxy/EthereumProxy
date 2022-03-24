@@ -3,7 +3,7 @@
 参考地址：https://teddysun.com/489.html
 ----
 #### 当前版本：{BUILD_VERSION}({BUILD_DATE})
-#### 最新版本：[V1.0 (2022-03-01)](https://github.com/ethereum-proxy/EthereumProxy/releases/tag/1.0)
+#### 最新版本：[V1.0.0 (2022-03-01)](https://github.com/ethereum-proxy/EthereumProxy/releases/tag/1.0)
 #### 联系我們：[Telegram 讨论群组(欢迎向我们提出意见)](https://t.me/ethereumproxy)、[GitHub](https://github.com/ethereum-proxy/ethereumproxy)
 #### V1.0更新內容：
 - EthereumProxy V1.0 版本已发布
