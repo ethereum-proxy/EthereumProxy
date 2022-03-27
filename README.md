@@ -89,7 +89,7 @@ screen -r Ethereum_proxy
 
 ## :family_woman_girl_boy: 联系我们
 
-Q Q群: [暂无]()
+Q Q 群: [暂无]()
 
 电报组: [Ethereumproxy 交流](https://t.me/ethereumproxy)
 ## :scroll: 开发抽水
