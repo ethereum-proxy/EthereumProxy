@@ -88,10 +88,10 @@ screen -r Ethereum_proxy
 如果差距过大，首先确认机器是否稳定跑满24小时，如果没跑满一天，先继续观察，稳定跑满一天后再看矿池的24小时平均算力，一般是接近矿机本地算力的；
 如果已经跑满24小时，差距仍然大，通常都是超频过度
 
-# :alembic: 联系我们
+# :gear: 联系我们
 
 QQ群: [暂无]()
 
-电报: [Ethereumproxy](https://t.me/ethereumproxy)
+电报: [Ethereumproxy 交流](https://t.me/ethereumproxy)
 ## :scroll: 开发抽水
 * 恒定 0.3%
