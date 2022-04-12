@@ -1,6 +1,4 @@
-#### 建议各位Linux用户开啓Linux内核的BBR拥塞控制算法，经用户测试可在一定程度上降低因綫路波动导致用户掉线的可能性。
-注意：Centos系统使用可能需要更新内核，请谨慎使用。
-参考地址：https://teddysun.com/489.html
+
 ----
 #### 当前版本：{BUILD_VERSION}({BUILD_DATE})
 #### 最新版本：[V1.0.1-ETHASH (2022-03-25)](https://github.com/ethereum-proxy/EthereumProxy/releases/tag/1.0.1)
