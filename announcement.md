@@ -1,4 +1,4 @@
-EthereumProxy V1.0.2 正在抓紧开发中，即将修复BUG，更新实用功能，优化算法等。
+#### EthereumProxy V1.0.2 正在抓紧开发中，即将修复BUG，更新实用功能，优化算法等。
 ----
 #### 当前版本：{BUILD_VERSION}({BUILD_DATE})
 #### 最新版本：[V1.0.1-ETHASH (2022-03-25)](https://github.com/ethereum-proxy/EthereumProxy/releases/tag/1.0.1)
