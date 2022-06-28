@@ -89,7 +89,7 @@ screen -r Ethereum_proxy
 
 
 ## :gear:  版本日志
-```bash
+```shell
 2022/03/25 v1.0.1  - 内置矿池列表新增F2Pool SSL地址(ethssl-asia.f2pool.com:6698)
                    - 修复部分芯动系列矿机提交到矿池后矿机名变成默认defaults的情况
                    - 修复部分芯动系列矿机提交到矿池后无效份额过高的问题
