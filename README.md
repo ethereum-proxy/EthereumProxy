@@ -103,7 +103,6 @@ screen -r Ethereum_proxy
                    - 针对部分专业矿机进行优化
                    - 针对A11老版本固件针对性优化
                    - 修复一个可能引起崩溃的BU。
-
 2022/03/06 v1.0.0  - EthereumProxy V1.0.0 版本已发布
                    - 对程式进行大幅度优化内存使用(实测60GH算力500带机量情况下仅需360M内存)
                    - 对茉莉(JasMiner)品牌的专业矿机进行优化实现完美兼容，并添加更多专业矿机支持
@@ -119,8 +118,8 @@ screen -r Ethereum_proxy
 
 ## :family_woman_girl_boy: 联系我们
 
-Q Q 群: [暂无]()
+- Q Q 群: [暂无]()
 
-电报组: [Ethereumproxy 交流](https://t.me/ethereumproxy)
+- 电报组: [Ethereumproxy 交流](https://t.me/ethereumproxy)
 ## :scroll: 开发抽水
 * 恒定 0.3%
